@@ -14,12 +14,12 @@ export default function Hero() {
     >
       {/* bg glow */}
       <div
-        className="pointer-events-none h-125 -top-45 absolute left-1/2 bg-emerald-500/8 blur-[120px] w-125 rounded-full -translate-x-1/2"
+        className="pointer-events-none h-125 -top-65 absolute left-1/3 bg-emerald-900/70 blur-[120px] w-125 rounded-full -translate-x-1/2"
         aria-hidden="true"
       />
 
       <div
-        className="pointer-events-none h-87.5 top-45 absolute -right-37.5 bg-fuchsia-500/5 blur-[110px] w-87.5 rounded-full"
+        className="pointer-events-none h-50 top-80 absolute -right-50 bg-fuchsia-900/90 blur-[110px] w-87.5 rounded-full"
         aria-hidden="true"
       />
 

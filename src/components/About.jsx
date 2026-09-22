@@ -50,13 +50,13 @@ export default function About() {
     >
       {/* bg glow */}
       <div
-        className="pointer-events-none absolute bg-emerald-500/[0.035] -left-40 h-80 w-80 top-40 rounded-full blur-[100px]"
+        className="pointer-events-none absolute bg-emerald-900/70 -left-40 h-80 w-80 top-40 rounded-full blur-[100px]"
         aria-hidden="true"
       />
 
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute bg-fuchsia-500/2.5 h-80 w-80 bottom-20 -right-40 rounded-full blur-[100px]"
+        className="pointer-events-none absolute bg-fuchsia-900/50 h-80 w-80 bottom-20 -right-40 rounded-full blur-[100px]"
       />
 
       <div className="relative mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
