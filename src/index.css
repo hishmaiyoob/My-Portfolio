@@ -22,3 +22,41 @@ body {
 * {
   box-sizing: border-box;
 }
+
+@keyframes project-slide-next {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes project-slide-previous {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-project-slide {
+  animation-duration: 350ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.project-slide-next {
+  animation-name: project-slide-next;
+}
+
+.project-slide-previous {
+  animation-name: project-slide-previous;
+}
