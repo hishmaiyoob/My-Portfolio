@@ -78,7 +78,7 @@ export default function Navbar() {
               Fathima Hishma
             </p>
 
-            <p className="text-[10px] uppercase tracking-[0.18em] font-medium text-slate-500">
+            <p className="text-[10px] uppercase tracking-[0.18em] font-medium text-slate-400">
               Software Engineer
             </p>
           </div>

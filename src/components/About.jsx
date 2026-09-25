@@ -64,13 +64,13 @@ export default function About() {
         <div className="mb-10 flex flex-col border-b border-white/6 pb-5 gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <div className="mb-2 flex items-center gap-2">
-              <span className="font-mono text-[11px] font-semibold text-emerald-400">
+              <span className="font-mono text-[11px] text-emerald-400">
                 01
               </span>
 
-              <span className="bg-emerald-400/40 h-px w-6" />
+              <span className="bg-emerald-400/40 h-px w-8" />
 
-              <span className="text-[10px] uppercase font-semibold tracking-[0.2em] text-slate-600">
+              <span className="text-xs uppercase font-semibold tracking-[0.2em] text-slate-500">
                 About
               </span>
             </div>

@@ -91,10 +91,12 @@ export default function Hero() {
               </a>
 
               <a
-                href="#contact"
+                href="/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-slate-700/80 rounded-xl px-5 py-3 bg-white/2.5 text-sm text-slate-200 transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-600 hover:bg-white/5"
               >
-                Let's connect
+                View Resume
               </a>
             </div>
 
@@ -128,9 +130,9 @@ export default function Hero() {
                 <FiMail size={19} />
               </a>
 
-              <span className="h-px w-10 bg-slate-800" />
+              <span className="h-px w-10 bg-slate-700" />
 
-              <span className="text-[11px] uppercase tracking-[0.16em] text-slate-600 font-medium">
+              <span className="text-[11px] uppercase tracking-[0.16em] text-slate-500 font-medium">
                 Build • Design • Ship
               </span>
             </div>
@@ -217,8 +219,8 @@ export default function Hero() {
         </div>
 
         {/* bottom */}
-        <div className="mt-12 flex items-center justify-between border-t border-white/6 pt-5">
-          <div className="flex items-center gap-2 text-[11px] text-slate-600">
+        <div className="mt-7 flex items-center justify-between border-t border-white/6 pt-5">
+          <div className="flex items-center gap-2 text-[11px] text-slate-500">
             <span className="h-1.5 w-1.5 bg-emerald-400 rounded-full" />
             Open to new opportunities
           </div>

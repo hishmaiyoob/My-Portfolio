@@ -150,22 +150,24 @@ export default function Projects() {
 
       <div className="relative px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         {/* heading */}
-        <div className="mb-2 max-w-3xl">
-          <div className="mb-3 flex items-center gap-3">
-            <span className="text-xs text-emerald-400 font-mono">03</span>
+        <div className="mb-10 flex flex-col border-b border-white/6 pb-5 gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <div className="mb-2 flex items-center gap-2">
+              <span className="text-[11px] text-emerald-400 font-mono">03</span>
 
-            <span className="w-8 bg-emerald-400/40 h-px" />
+              <span className="w-8 bg-emerald-400/40 h-px" />
 
-            <span className="text-slate-500 text-xs uppercase tracking-[0.2em] font-semibold">
-              Selected Work
-            </span>
+              <span className="text-slate-500 text-xs uppercase tracking-[0.2em] font-semibold">
+                Selected Work
+              </span>
+            </div>
+
+            <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
+              Things i've built.
+            </h2>
           </div>
 
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-white">
-            Things i've built.
-          </h2>
-
-          <p className="mt-3 text-sm sm:text-base leading-6 max-w-xl text-slate-400">
+          <p className="text-xs sm:text-right leading-5 max-w-xs text-slate-500">
             A selection of projects where I've worked across frontend, backend,
             databases, authentication, and product interfaces.
           </p>
